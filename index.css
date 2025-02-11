@@ -1,0 +1,53 @@
+body {
+    background-color: #1E2A47;
+    color: white;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.score-box {
+    background-color: #2A2A2A;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF4C4C;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
